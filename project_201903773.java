@@ -9,7 +9,7 @@ public class project_201903773 {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("Welcome to Akshita Aggarwal Personal Bank");
+		System.out.println("Welcome to New Akshita Aggarwal Personal Bank");
 		boolean flag = true;
 		while(flag)
 		{
@@ -18,8 +18,7 @@ public class project_201903773 {
 			System.out.println("1) Open a Bank Account");
 			System.out.println("2) Deposit into Personal Account");
 			System.out.println("3) Withdraw from Personal Account");
-			System.out.println("4) Check Personal Account Balance");
-			System.out.println("5) Exit");
+			System.out.println("4) Exit");
 			
 			int choice = scan.nextInt();
 			
@@ -36,12 +35,8 @@ public class project_201903773 {
 				case 3:
 					withdrawFromAccount();
 					break;
-					
+										
 				case 4:
-					checkAccountBalance();
-					break;
-					
-				case 5:
 					System.out.println("Now exiting");
 					flag = false;
 					break;
@@ -127,20 +122,4 @@ public class project_201903773 {
 		}
 	}
 	
-	public static void checkAccountBalance ()
-	{
-		scan.nextLine();
-		System.out.println("Please enter your Name");
-		String name = scan.nextLine();
-		
-		if(name.equals(""))
-		{
-			System.out.println("Data is required. Please enter a value.");
-			System.exit(0);
-		}
-		else
-		{
-			System.out.println("Your current balance is : $" + currentBalance);
-		}
-	}
 }
