@@ -1,7 +1,6 @@
 - 👋 Hi, I’m @AnishAggarwal
-- 👀 I’m interested in Machine Learning.
-- 🌱 I’m currently learning Software Development and Database Management.
-- 💞️ I’m looking to collaborate on ...
+- 👀 I’m interested in Data Analysis and Research.
+- 🌱 I’m currently learning Anaconda Navigator and C#.
 - 📫 Reach me at anishaggarwaltu@gmail.com 
 
 <!---
